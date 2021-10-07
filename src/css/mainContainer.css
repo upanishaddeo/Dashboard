@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(44, 44, 44);
+}
+
+
+.secCol{
+    background-color: rgb(55, 55, 55);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: 200ms;
+}
+.secCol:hover{
+    background-color: rgb(55, 55, 55);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    border-radius: 55px 0px 0px 55px;
+    box-shadow: -1px 3px 12px #0d0d0d;
+}
+/* SIde Bar CSS Code starts */
+.heroLogo{
+    padding: 22px 40px 40px 40px;
+    text-align: center;
+}
+.heroLogo h1{
+    color: white;
+    font-size: 30px;
+}
+
+.heroLogo span{
+    color: rgb(226, 76, 76);
+}
+.heroLogo p{
+    color: #919191;
+    font-size: 11px;
+}
+.sbn-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 20px;
+    color: rgb(197 149 149);
+    transition: 200ms;
+    align-items: center;
+    position: relative;
+    /* background-color: #373737; */
+    left: -160px;
+    margin-top: 7px;
+    justify-content: flex-end;
+    width: 200px;
+    border-radius: 0px 10px 10px 0px;
+}
+.sbn-container:hover{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -40px;
+    justify-content: flex-end;
+    color: white;
+    padding-left: 50px;
+    font-size: 14px;
+    align-items: center;
+    background-image: linear-gradient( 
+        268deg
+         , rgb(0 0 0), #977370);
+    border-radius: 0px 25px 25px 0px;
+    cursor: pointer;
+    box-shadow: 0px 0px 13px #fbcdca;
+}
+.sbn-icon{
+    margin-left: 18px;
+    font-size: 16px;
+}
+.sbn-heading{
+    font-size: 11.5px;
+}
+.SideBarCont{
+    background-color: rgb(44, 44, 44);
+    font-family: 'Poppins', sans-serif;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sideBarNav{
+    position: absolute;
+    top: 130px;
+}
+.userDataContainer{
+    transition: 100ms;
+    position: relative;
+    top: 123px;
+}
+.userDataDesc{
+    margin-top: 40px;
+}
+.userDataDesc p{
+    padding: 10px 30px 0px 20px; 
+    color: rgb(206, 206, 206);
+    font-size: 10px;
+}
+.userDataDesc p span{
+    font-weight: 600;
+    color: rgb(218, 92, 92);
+    font-size: 12px;
+}
+.userDataContainer:hover{
+    cursor: pointer;
+    height: 270px;
+    top: 0px;
+    color: white;
+    position: relative;
+    border-radius: 20px 20px 0px 0px;
+    background-image: linear-gradient( 
+1deg
+ , rgb(0 0 0), #8f7877);
+ box-shadow: 2px 8px 20px #0d0d0d;
+
+}
+.userData{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px 20px 20px; 
+    color: white;
+    
+}
+.userData:hover{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+   
+}
+.footer-username p span{
+    color: white;
+    font-size: 13px !important;
+    font-weight: 500;
+}
+.footer-username p{
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+}
+.footer-image{
+    width: 18%;
+    height: auto;
+}
+/* SIde Bar CSS Code ends */
+
+/* center section Css starts */
+.centerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-left: 35px;
+}
+.thirdRowCard{
+    display: flex;
+    flex-direction: row;
+}
+
+.centerContainer1 h2{
+    font-size: 14px;
+}
+.centerContainer1 h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.mainImage{
+    /* margin: 30px 0px 30px 0px; */
+}
+.mainImage img{
+    border-radius: 10px;
+    box-shadow: -1px 3px 12px #0d0d0d;
+    transition: 100ms;
+    width: 70.5%;
+}
+.mainImage img:hover{
+    border-radius: 20px;
+    box-shadow: 2px -2px 20px #fbcdca;
+    cursor: pointer;
+}
+.thirdRow h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.subjectCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 200px;
+    background-color: #FBCDCA;
+    padding: 10px 0px 10px 20px;
+    border-radius: 10px;
+    transition: 250ms;
+    box-shadow: 11px 13px 20px #0d0d0d, 0px 1px 19px #dedede;
+}
+.subjectCard:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 200px;
+    background-color: #232323;
+    padding: 10px 0px 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: inset 5px 7px 20px #0d0d0d, inset 1px 1px 12px #dedede;
+}
+.cardHeading{
+    margin-bottom: 17px;
+}
+.thirdRow {
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+.cardHeading span{
+    color: #4e4e4e;
+    font-weight: 400;
+}
+.cardHeading p{
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+}
+.ratings{
+    font-size: 11px;
+    color: #4e4e4e;
+    margin-bottom: 6px;
+}
+/* center section Css ends */
+
+
+/* last section CSS starts */
+.lastContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    width: 343px;
+    margin-right: 44px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.userStatsHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.userStatsCenter{
+    display: flex;
+    flex-direction: column;
+}
+.userStatSearch{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    padding: 6px;
+    font-size: 13px !important;
+    align-items: center;
+    justify-content: center;
+    transition: 50ms;
+    background-color: #565656;
+    border-radius: 10px;
+}
+.userStatSearch:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px !important;
+    width: 200px;
+    background-color: rgb(34, 35, 36);
+    border-radius: 10px;
+    padding: 6px;
+    box-shadow: -1px 3px 12px #0d0d0d;
+    cursor: pointer;
+}
+.userStatSearch i{
+    margin-right: 10px;
+    color: rgb(187, 187, 187);
+}
+.userStatSearch p{
+    font-size: 13px;
+    color: rgb(123, 123, 123);
+}
+.taskContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.taskHeading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bellDiv{
+    background-color: #555c8a;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: -1px 3px 12px #0d0d0d;
+    transition: 50ms;
+    font-size: 10px;
+}
+.bellDiv:hover{
+    background-color: #5665d5;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: -1px 3px 12px #000000;
+    cursor: pointer;
+    font-size: 17px;
+}
+.taskContainer{
+    background-image: linear-gradient( 
+25deg
+ , rgb(30 30 30), #e2a6a2);
+    padding: 6px;
+    padding-left: 16px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 10px;
+    transition: 200ms;
+}
+.taskContainer:hover{
+    background-image: linear-gradient( 
+83deg
+ , rgb(30 30 30), #e2a6a2);
+ padding: 15px 10px 15px 10px;
+    padding-left: 17px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -1px 3px 12px #000000;
+}
+.taskIcons{
+    margin-right: 14px;
+    font-size: 17px;
+}
+.flexHeading{
+    line-height: 20px;
+}
+.flexHeading h2{
+    font-size: 11px;
+}
+.flexHeading p{
+    font-size: 11px;
+    color: gray;
+}
+.userStatsSecHead{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.userStatslast{
+    padding: 10px 0px 21px 0px;
+}
+.userStatslast img{
+    height: 153px;
+    width: 288px;
+    border-radius: 10px;
+    transition: 50ms;
+}
+.userStatslast img:hover{
+    height: 160px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: -1px 3px 12px #0d0d0d;
+    cursor: pointer;
+}
+.userStatslast h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* last section CSS starts */
